@@ -2,13 +2,13 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
-  name: bucket
+  name: 4-demo-kustomize-minio-s3-bucket-bb-app
   namespace: flux-system
 spec:
-  interval: 10s
-  path: ./app-740
+  interval: 1m0s
+  path: ./manifests
   prune: true
   sourceRef:
     kind: Bucket
-    name: 4-demo-source-minio-s3-bb-app
+    name: 4-demo-source-minio-s3-bucket-bb-app
   targetNamespace: 4-demo

@@ -8,4 +8,4 @@ spec:
   interval: 1m0s
   ref:
     branch: 8-demo
-  url: https://ghcr.io/ctriassi-hitachi/bb-app-source
+  url: https://github.com/ctriassi-hitachi/bb-app-source

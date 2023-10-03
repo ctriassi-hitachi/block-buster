@@ -11,4 +11,4 @@ spec:
     tag: 7.7.0-0bb2691
   secretRef:
     name: ghcr-auth
-  url: oci://ghcr.io/ctriassi-hitachi/bb-app
+  url: oci://ghcr.io/ctriassi-hitachi/bb-app-source
